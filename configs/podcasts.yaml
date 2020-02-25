@@ -1,0 +1,12 @@
+# Config file for CelebA dataset (200k)
+
+output_dir: '/Users/Peter/git/pycharm/StyleGAN.pytorch/output-2'
+structure: 'linear'
+device_id: ('3')
+dataset:
+  img_dir: '/Users/Peter/git/pycharm/podcasts/data/images'
+  folder: True
+  resolution: 512
+sched:
+  epochs: [2,4,4,4,4,8]
+

@@ -649,6 +649,7 @@ class StyleGAN:
                 logger.info("Epoch: [%d]" % epoch)
                 # total_batches = len(iter(data))
                 total_batches = len(data)
+                print('total batches ', len(data))
 
                 fade_point = int((fade_in_percentage[current_depth] / 100)
                                  * epochs[current_depth] * total_batches)
